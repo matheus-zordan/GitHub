@@ -17,29 +17,47 @@
 <body>
   <!--Navigation-->
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <!-- Início da barra de navegação com classes para estilo, expansão em telas grandes, posição fixa no topo e cores escuras -->
     <div class="container">
+      <!-- Div contêiner que alinha o conteúdo da navbar e ajusta sua largura automaticamente -->
       <a href="index.html" class="navbar-brand">
+        <!-- Link para a página inicial com a classe 'navbar-brand' que destaca o logotipo/marca -->
         <img src="images/logo.png" alt="" width="255">
+        <!-- Imagem do logotipo com largura definida -->
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-targe="navbarNavDropdown">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <!-- Botão de alternância para colapsar/expandir o menu em telas menores -->
         <span class="navbar-toggler-icon"></span>
+        <!-- Ícone padrão do botão de alternância (ícone de "hambúrguer") -->
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <!-- Div que contém os links da navbar, colapsada por padrão e expandida pelo botão acima -->
         <ul class="navbar-nav ms-auto">
+          <!-- Lista de navegação com a classe 'ms-auto' para alinhar os itens à direita -->
           <li class="nav-item">
-            <a href="index.html " class="nav-link fw-semibold">Home</a>
+            <!-- Item da lista de navegação -->
+            <a href="index.html" class="nav-link fw-semibold">Home</a>
+            <!-- Link de navegação para a página inicial com estilo de fonte em negrito -->
           </li>
           <li class="nav-item">
-            <a href="#details " class="nav-link fw-semibold">Details</a>
+            <!-- Outro item da lista de navegação -->
+            <a href="#details" class="nav-link fw-semibold">Details</a>
+            <!-- Link de navegação que rola a página para a seção com o id "details" -->
           </li>
           <li class="nav-item">
+            <!-- Item da lista de navegação para a página de contato -->
             <a href="contact.html" class="nav-link btn btn-outline-light fw-semibold px-4 mx-4">Contact</a>
+            <!-- Link com estilo de botão, bordas claras, fonte em negrito, e espaçamento horizontal e interno definidos -->
           </li>
         </ul>
-
+        <!-- Fim da lista de navegação -->
       </div>
+      <!-- Fim da div que colapsa e expande a navbar -->
     </div>
+    <!-- Fim do contêiner -->
   </nav>
+  <!-- Fim da barra de navegação -->
+
 
 
   <script src="js/bootstrap.bundle.min.js"></script>
